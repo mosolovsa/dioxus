@@ -40,7 +40,7 @@ Inspired by atom-based state management solutions, all state in Fermi starts as 
 static NAME: Atom<&str> = |_| "Dioxus";
 ```
 
-From anywhere in our app, we can read our the value of our atom:
+From anywhere in our app, we can read out the value of our atom:
 
 ```rust, ignore
 fn NameCard(cx: Scope) -> Element {
